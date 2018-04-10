@@ -15,7 +15,7 @@
 
     <!-- Release some attributes to an SP. -->
     <AttributeFilterPolicy id="Any">
-        <PolicyRequirementRule xsi:type="Any" />
+        <PolicyRequirementRule xsi:type="ANY" />
 
         <AttributeRule attributeID="eduPersonPrincipalName">
             <PermitValueRule xsi:type="ANY" />
